@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head> 
+        <script type="text/javascript" src="dynamique.js"></script>
+		<script type="text/javascript" src="p5.js"></script>
+		
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <meta charset="utf-8">
+        <title>GRAPHIQUE MAGNIFIQUE</title>
+		<link rel="icon" href="icon.png">
+    </head>
+	<body>
+	<h1>Projet C : Trajectoire planètes, par Youenn et Quentin </h1>
+<p>Présentation du projet : </br>
+Sur notre page vous pouvez charger un fichier .JSON contenant les points de la trajectoire d'une planète.
+Ces points peuvent être générés grâce à notre super logiciel codé en c.
+</p>
+	<p>Choisissez le fichier avec les valeurs <input type="file" onchange="readFile(this)"></p>
+	
+	<!-- boutons d'affichage des trajectoires -->
+	<p><br><br><br><a href="#" class="bouton" onclick="mercure_indice()">Mercure Euleur</a>
+	<a href="#" class="bouton" onclick="mercureAsym_indice()">Mercure Asymetrique</a>
+	
+	<br><br><br><a href="#" class="bouton" onclick="mars_indice()">Venus Euleur</a>
+	<a href="#" class="bouton" onclick="marsAsym_indice()">Venus Asymetrique</a>
+
+	<br><br><br><a href="#" class="bouton" onclick="terre_indice()">Terre Euleur</a>
+	<a href="#" class="bouton" onclick="terreAsym_indice()">Terre Asymetrique</a>
+	
+	<br><br><br><a href="#" class="bouton" onclick="mars_indice()">Mars Euleur</a>
+	<a href="#" class="bouton" onclick="marsAsym_indice()">Mars Asymetrique</a>
+	
+	<br><br><br><a href="#" class="bouton" onclick="Reset()">reset canvas</a>
+	</p>
+</br>
+</br>
+	
+
+	</body>
+</html>

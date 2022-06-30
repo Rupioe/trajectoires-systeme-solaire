@@ -1,0 +1,42 @@
+h1 {/*apparence du titre*/
+	color:white;
+}
+
+body {/*image d'arriere plan*/
+	background-image: url("image2.jpg");
+	max-width: 100%;
+    height: auto;
+	
+}
+
+
+p {/*apparence du texte*/
+	color: white;
+}
+
+.bouton { /*apparence des boutons*/
+text-decoration: none;
+padding: 10px;
+font-family: verdana;
+font-size: 0.8em;
+color: #bfbfbf;
+background-color: #1f497d;
+border-radius: 20px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border: 4px outset #4f81bd;
+}
+
+
+.bouton:hover { /*apparence des boutons au survol de la souris*/
+padding: 10px;
+color: #7f7f7f;
+background-color: #0f243e;
+border: 4px inset #8db3e2;
+}
+
+.bouton:focus{/*apparence du dernier bouton utilisé*/
+color: #7f7f7f;
+background-color: #0f243e;
+border: 4px inset #8db3e2;
+}
