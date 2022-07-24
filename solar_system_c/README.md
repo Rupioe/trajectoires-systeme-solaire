@@ -55,4 +55,4 @@ Le bouton `reset` fait repartir les tracés au début.
 
 ## Nous contacter
 
-Envoyez un message sur mon github.
+Remplissez un bug report ou envoyez un mail : rupioe@protonmail.com.
